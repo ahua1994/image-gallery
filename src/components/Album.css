@@ -1,0 +1,20 @@
+img { 
+    height: 400px;
+}
+
+img:hover {
+    animation: grow 0.6s ease-in-out both;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+@keyframes grow { 
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
